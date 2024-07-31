@@ -22,7 +22,7 @@ public class C04_pageClassiKullanma {
         testOtomasyonuPage.aramaKutusu.sendKeys("phone"+ Keys.ENTER);
 
         //ilk urune tiklayin
-        testOtomasyonuPage.bulunanUrunElementleriListe.
+        testOtomasyonuPage.bulunanUrunElementleriList.
                 get(0).
                 click();
 
