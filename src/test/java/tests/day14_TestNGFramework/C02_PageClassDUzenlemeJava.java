@@ -10,7 +10,7 @@ import utilities.ReusableMethods;
 
 public class C02_PageClassDUzenlemeJava {
 
-    @Test
+    @Test(groups = {"smoke"})
     public void aramaTesti(){
 
         // Testotomasyonu anasayfaya gidin

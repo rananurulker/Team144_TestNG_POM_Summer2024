@@ -9,7 +9,7 @@ import utilities.Driver;
 import java.util.Locale;
 
 public class C04_pageClassiKullanma {
-    @Test
+    @Test(groups = {"smoke","E2E 1","regression"})
     public void test01(){
         //testotomasyonu anasayfaya gidin
         Driver.getDriver().get("https://www.testotomasyonu.com");

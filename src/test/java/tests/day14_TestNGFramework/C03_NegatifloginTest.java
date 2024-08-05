@@ -7,7 +7,7 @@ import pages.FacebookPage;
 import utilities.Driver;
 
 public class C03_NegatifloginTest {
-    @Test
+    @Test(groups = {"regression"})
     public void negatifLoginTesti(){
 
         //1 - https://www.facebook.com/ adresine gidin

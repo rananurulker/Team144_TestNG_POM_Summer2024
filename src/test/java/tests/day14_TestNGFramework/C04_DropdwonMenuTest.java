@@ -10,7 +10,7 @@ import utilities.ReusableMethods;
 public class C04_DropdwonMenuTest {
     public class C04_DropdownMenuTesti {
 
-        @Test
+        @Test(groups = {"smoke", "E2E 1"})
         public void test01() {
             //1 - https://testotomasyonu.com/form adresine gidin
             Driver.getDriver().get("https://testotomasyonu.com/form");

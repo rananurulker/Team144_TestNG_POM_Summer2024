@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import utilities.Driver;
 
 public class C01_DriverclassDuzenleme {
-    @Test
+    @Test(groups = {"regression", "E2E 1"})
 
     public void test01(){
         /*
