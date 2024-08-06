@@ -8,8 +8,25 @@ asagida secilen 6 classi 2 driver gibi ayni anda calisarak bitirsi istiyorsak,
 bu driverlar class bazinda calisir,
 bir classi bitiren siradaki classi alarak yoluna devam eder
 
+bagimli methodlar varsa calisirken sknti olabilir
+
+test ngde paralel calistirma
+sirali calistirmaa eklenecek birkac ek bilgiyle yapilabilir
+
+yani testngde testleri paralel calistirmak kolaydir ama verilmi degildir
+thread-count="2" ayni anda calisacak driver sayisini ifade eder
+parallel="classes" gorev bolusumumun hangi seviyede yapilacagini belirler
+            -class
+            -method
+            -test
+verbose sirali calistirma veya paralel calistrmada kullanilabilir
+toplu test calistirmada konsolda cikacak aciklamalarin daha az veya daha cok olmasini saglar
+1-10 arasinda olabilir
+
+
+
 -->
-<suite name="smoke test suiti" thread-count="2" parallel="classes">
+<suite name="smoke test suiti" thread-count="2" parallel="classes" verbose="3">
     <test name="smoke test">
         <packages>
             <package name="tests.day13_testNG_Framework"></package>
